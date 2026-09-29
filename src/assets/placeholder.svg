@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 340" role="img" aria-labelledby="title desc">
+  <title id="title">Book cover placeholder</title>
+  <desc id="desc">Placeholder cover used when Google Books has no image</desc>
+  <rect width="240" height="340" fill="#f2f1f8"/>
+  <rect x="35" y="45" width="170" height="250" rx="8" fill="#9e98dc"/>
+  <path d="M63 92h114M63 122h88M63 218h114M63 248h72" stroke="#fff" stroke-width="9" stroke-linecap="round" opacity=".9"/>
+  <circle cx="120" cy="168" r="36" fill="#fff" opacity=".9"/>
+  <path d="M106 168l10 10 20-25" fill="none" stroke="#9e98dc" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

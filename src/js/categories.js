@@ -1,0 +1,18 @@
+export const categories = [
+  { name: 'Architecture', query: 'subject:Architecture' },
+  { name: 'Art & Fashion', query: 'subject:Art' },
+  { name: 'Biography', query: 'subject:Biography & Autobiography' },
+  { name: 'Business', query: 'subject:Business' },
+  { name: 'Crafts & Hobbies', query: 'subject:Crafts & Hobbies' },
+  { name: 'Drama', query: 'subject:Drama' },
+  { name: 'Fiction', query: 'subject:Fiction' },
+  { name: 'Food & Drink', query: 'subject:Cooking' },
+  { name: 'Health & Wellbeing', query: 'subject:Health & Fitness' },
+  { name: 'History & Politics', query: 'subject:History' },
+  { name: 'Humor', query: 'subject:Humor' },
+  { name: 'Poetry', query: 'subject:Poetry' },
+  { name: 'Psychology', query: 'subject:Psychology' },
+  { name: 'Science', query: 'subject:Science' },
+  { name: 'Technology', query: 'subject:Technology' },
+  { name: 'Travel & Maps', query: 'subject:Travel' },
+];

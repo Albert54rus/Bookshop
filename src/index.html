@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html class="document" lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Bookshop — учебный книжный интернет-магазин SkillFactory">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+  <title>Bookshop</title>
+</head>
+<body class="page">
+  <header class="header">
+    <div class="header__inner container">
+      <a class="header__logo" href="#" aria-label="Bookshop home">Bookshop</a>
+
+      <nav class="header__nav" aria-label="Main navigation">
+        <a class="header__nav-link header__nav-link_active" href="#">Books</a>
+        <a class="header__nav-link" href="#">Audiobooks</a>
+        <a class="header__nav-link" href="#">Stationery &amp; gifts</a>
+        <a class="header__nav-link" href="#">Blog</a>
+      </nav>
+
+      <div class="header__actions" aria-label="User actions">
+        <button class="icon-button" type="button" aria-label="Account">
+          <svg class="icon-button__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8Zm-7 8a7 7 0 0 1 14 0"/></svg>
+        </button>
+        <button class="icon-button" type="button" aria-label="Search">
+          <svg class="icon-button__icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6"/><path d="m16 16 4 4"/></svg>
+        </button>
+        <button class="icon-button icon-button_cart" type="button" aria-label="Cart">
+          <svg class="icon-button__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 8h12l-1 12H7L6 8Zm3 0V6a3 3 0 0 1 6 0v2"/></svg>
+          <span class="cart-badge" id="cart-badge" hidden>0</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero container" aria-label="Promotions">
+      <div class="slider" id="slider">
+        <div class="slider__viewport">
+          <img class="slider__slide slider__slide_active" alt="Black Friday sale up to 60 percent">
+          <img class="slider__slide" alt="Top books for entrepreneurs">
+          <img class="slider__slide" alt="Cozy books selection">
+        </div>
+        <div class="slider__dots" aria-label="Slider navigation">
+          <button class="slider__dot slider__dot_active" type="button" aria-label="Show slide 1" data-slide="0"></button>
+          <button class="slider__dot" type="button" aria-label="Show slide 2" data-slide="1"></button>
+          <button class="slider__dot" type="button" aria-label="Show slide 3" data-slide="2"></button>
+        </div>
+      </div>
+
+      <div class="promo-links">
+        <a class="promo-link promo-link_lilac" href="#">
+          <span>Change<br>old book<br>on new</span>
+          <span class="promo-link__arrow">→</span>
+        </a>
+        <a class="promo-link promo-link_pink" href="#">
+          <span>Top<br>100<br>books<br>2022</span>
+          <span class="promo-link__arrow">→</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="catalog" aria-label="Book catalog">
+      <div class="catalog__inner container">
+        <aside class="categories" aria-label="Book categories">
+          <ul class="categories__list" id="categories"></ul>
+        </aside>
+
+        <div class="books-area">
+          <div class="status" id="status" aria-live="polite"></div>
+          <div class="books" id="books"></div>
+          <button class="load-more" id="load-more" type="button">Load more</button>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
